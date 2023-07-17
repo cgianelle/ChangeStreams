@@ -1,0 +1,70 @@
+{
+  _id: {
+    _data: '82641E237C000000012B022C0100296E5A1004E5022AC53E0B459C894F90EB3936206046645F69640064641E237B1D1B87D90CDC3D7B0004'
+  },
+  operationType: 'insert',
+  clusterTime: new Timestamp({ t: 1679696764, i: 1 }),
+  fullDocument: {
+    _id: new ObjectId("641e237b1d1b87d90cdc3d7b"),
+    firstName: 'Moses',
+    lastName: 'Stiedemann',
+    telephoneNumber: '875.712.9033 x131',
+    address: '2801 Beer Haven',
+    city: 'Draper',
+    state: 'Alabama',
+    zipCode: '56966',
+    creditCard: '6378-4423-1129-4602',
+    cvv: '667'
+  },
+  ns: { db: 'testDB', coll: 'testCollection' },
+  documentKey: { _id: new ObjectId("641e237b1d1b87d90cdc3d7b") }
+}
+{
+  _id: {
+    _data: '82641E23A0000000022B022C0100296E5A1004E5022AC53E0B459C894F90EB3936206046645F69640064641E23A0773ADDF1B18E6B170004'
+  },
+  operationType: 'insert',
+  clusterTime: new Timestamp({ t: 1679696800, i: 2 }),
+  fullDocument: {
+    _id: new ObjectId("641e23a0773addf1b18e6b17"),
+    firstName: 'Era',
+    lastName: 'Hayes',
+    telephoneNumber: '(338) 455-2671',
+    address: '200 Homenick Oval',
+    city: 'Denton',
+    state: 'Arkansas',
+    zipCode: '05724-8602',
+    creditCard: '6767-6877-3413-7128-197',
+    cvv: '318'
+  },
+  ns: { db: 'testDB', coll: 'testCollection' },
+  documentKey: { _id: new ObjectId("641e23a0773addf1b18e6b17") }
+}
+
+
+
+
+
+{
+  _id: {
+    _data: '82641E2412000000012B022C0100296E5A1004E5022AC53E0B459C894F90EB3936206046645F69640064641E23A0773ADDF1B18E6B170004'
+  },
+  operationType: 'update',
+  clusterTime: new Timestamp({ t: 1679696914, i: 1 }),
+  ns: { db: 'testDB', coll: 'testCollection' },
+  documentKey: { _id: new ObjectId("641e23a0773addf1b18e6b17") },
+  updateDescription: { updatedFields: { cvv: '319' }, removedFields: [] }
+}
+
+
+
+
+{
+  _id: {
+    _data: '82641E2450000000012B022C0100296E5A1004E5022AC53E0B459C894F90EB3936206046645F69640064641E23A0773ADDF1B18E6B170004'
+  },
+  operationType: 'delete',
+  clusterTime: new Timestamp({ t: 1679696976, i: 1 }),
+  ns: { db: 'testDB', coll: 'testCollection' },
+  documentKey: { _id: new ObjectId("641e23a0773addf1b18e6b17") }
+}
